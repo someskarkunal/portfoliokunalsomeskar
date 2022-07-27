@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/extract_text.css">
+    <title>Extract Text</title>
+</head>
+<body>
+    <div id="pageTitle">Javascript File Reader - Extract Text</div>
+    <div id="pagesubTitle">Can extract text from .txt, .css, .json, .xml and PDF Files!!</div>
+    <div class="mainDiv">
+        <div class="subDiv">
+            <input type="file" name="fileUpload" id="fileUpload"/><br/>
+            <input type="button" value="Extract Text" id="btnSubmit" onclick="btnSubmit()"/>
+            <input type="button" value="Clear" id="btnClear" onclick="btnClear()"/>
+            <div id="jsonDiv"></div>
+            <textarea id="resText" name="resText" rows="4" cols="50"></textarea>
+            <input type="button" value="Copy Text" id="btnCopy" onclick="btnCopy()"/>
+        </div>
+    </div>
+    <!-- <script src="./script/index.js"></script> -->
+    <!-- <script src="./script/indexJs.js"></script> -->
+    <script src="./script/extract_text.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/1.10.100/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf.worker.entry.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/1.10.100/pdf.worker.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Hahmlet&display=swap" rel="stylesheet" type='text/css'>
+    <link href="'https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap'" rel="stylesheet" type='text/css'>
+    <title>Kunal Someskar</title>
+</head>
+<body id="mainBody">
+    <nav>
+        <div class="logoDiv"><img src="./media/images/logo1.png" class="logo"></div>
+        <a href="javascript:void(0);" class="icon" onclick="myrespNav()"><i class="fa fa-bars" id="navmenuBars"></i></a>
+        <ul id="navList">
+            <li><a href="#introDiv">Home</a></li>
+            <li><a href="#a">About Me</a></li>
+            <li><a href="#p">Portfolio</a></li>
+            <li><a href="#s">Skills</a></li>
+            <!-- <li><a href="#q">Qualification</a></li> -->
+            <!-- <li><a href="#c">Connect Me</a></li> -->
+            <li><a href="Javascript: void(0);" id="chooseVersion">Website Version</a></li>
+        </ul>
+    </nav>
+    <div class="card-container">
+        <!-- <a href="./extract_text.html">Extract Text</a> -->
+        <div class="card show" id="introDiv">
+            <div class="hero">
+                <div class="info">
+                    <h1>I am <span>Kunal Someskar</span></h1>
+                    <h1>I'm a Full Stack Developer</h1>
+                    <!-- <p id="introPara4">Skills:</p>  -->
+                    <span id="skillsSpan">
+                        <span class="wrapper">
+                            <p id="introPara4">Skills:</p>
+                            <!-- <div class="static-txt">I'm a</div> -->
+                            <ul class="dynamic-txts">
+                            <li><span>HTML</span></li>
+                            <li><span>CSS</span></li>
+                            <li><span>Javascript</span></li>
+                            <li><span>JQuery</span></li>
+                            <li><span>React JS</span></li>
+                            </ul>
+                        </span>
+                    </span>
+                    <p>Welcome to my official Portfolio Website, where I put all<br> my work related to my designs and many more.</p>
+                    <a href="./Resume_Kunal_Someskar.docx" download="Resume_Kunal_Someskar" class="btn">Download CV</a>
+                </div>
+                <div class="img-box">
+                    <img src="./media/images/back.png" class="back-img">
+                    <img src="./media/images/11.png" class="man-img">
+                </div>
+                <div class="social">
+                    <!-- <a href="#"><i class="fab fa-facebook-square"></i></a> -->
+                    <a href="mailto:kunalsomeskar@gmail.com"><i class="fa fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/kunal-someskar"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/someskarkunal/"><i class="fa fa-instagram"></i></a>                    
+                </div>
+            </div>
+        </div>
+        
+        <div id="a"></div>
+        <div class="card show" id="aboutDiv">
+            <div class="hero">
+                <div id="aboutimgDiv"><img src="./media/images/11.png" id="aboutImg"></div>
+                <div class="titlePara" id="aboutTitle">About Me</div>
+                <div id="aboutsubTitle">My Introduction</div>
+                <p>I am Kunal Someskar with an extensive knowledge and years of experience working with various technologies and domains</p>
+                <div id="ratingDiv">
+                    <span id="ratingDivChild">
+                        <strong>
+                            03+
+                        </strong><br/>
+                        <span class="aboutratesubText">
+                        Years<br/>Experience
+                        </span>
+                    </span>
+                    <span id="ratingDivChild">
+                        <strong>
+                            06+
+                        </strong><br/>
+                        <span class="aboutratesubText">
+                        Completed<br/>Projects
+                        </span>
+                    </span>
+                    <span id="ratingDivChild">
+                        <strong>
+                            10+
+                        </strong><br/>
+                        <span class="aboutratesubText">
+                        Industries<br/>Served
+                        </span>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div id="p"></div>
+        <div class="card show" id="portfolioDiv">
+            <div class="hero">
+                <div class="titlePara" id="portfolioTitle">Portfolio</div>
+                <p id="portfoliosubTitle">My Recent Work</p>
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 3</div>
+                      <a href="http://www.1universe.co.in/extract_text.html"><img src="./media/images/pf1.png" style="width:100%"></a>
+                      <div class="text">Document Text Extractor</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 3</div>
+                      <a href="Javascript: void(0)"><img src="./media/images/Comingsoon.png" style="width:100%"></a>
+                      <div class="text">Coming Soon!</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">3 / 3</div>
+                      <a href="Javascript: void(0)"><img src="./media/images/Comingsoon.png" style="width:100%"></a>
+                      <div class="text">Coming Soon!</div>
+                    </div>
+                    
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                    
+                    </div>
+                    <br>
+                    
+                    <div style="text-align:center">
+                      <span class="dot" onclick="currentSlide(1)"></span> 
+                      <span class="dot" onclick="currentSlide(2)"></span> 
+                      <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div>
+            </div>
+        </div>
+
+        <div id="s"></div>
+        <div class="card show" id="skillsDiv">
+            <div class="hero">
+                <div class="titlePara" id="skillsTitle">Skills</div>
+                <p id="skillssubTitle">A summary of my various skills</p>
+                <div class="skillsBox">
+                    <div class="box">	
+                        <!-- <h3>&middot; <a href="https://twitter.com/anaksmkti">My</a> Programming Skills &middot;</h3> -->
+                        <div class="skillsfesub">Front End Skills</div>
+                    
+                        <div class="bg">
+                        <div class="html">
+                            <span class="left">HTML</span>
+                            <span class="right">80%</span>
+                        </div>
+                        </div>
+                    <br>
+                        <div class="bg">
+                        <div class="css">
+                            <span class="left">css</span>
+                            <span class="right">78%</span>
+                        </div>
+                        </div>
+                    <br>
+                        <div class="bg">
+                        <div class="js">
+                            <span class="left">Javascript</span>
+                            <span class="right">75%</span>
+                        </div>
+                        </div>
+                    <br>
+                        <div class="bg">   
+                        <div class="jq">
+                            <span class="left">JQuery</span>
+                            <span class="right">70%</span>
+                        </div>
+                        </div>
+                    <br>
+                        <div class="bg">
+                        <div class="rjs">
+                            <span class="left">React JS</span>
+                            <span class="right">50%</span>
+                        </div>
+                        </div>
+                    <br>
+                    </div>
+                    <div class="box">	
+                        <!-- <h3>&middot; <a href="https://twitter.com/anaksmkti">My</a> Programming Skills &middot;</h3> -->
+                        <div class="skillsfesub">Back End Skills</div>
+                    
+                        <div class="bg">
+                        <div class="php">
+                            <span class="left">PHP</span>
+                            <span class="right">70%</span>
+                        </div>
+                        </div>
+                    <br>
+                        <div class="bg">
+                        <div class="njs">
+                            <span class="left">Node.js</span>
+                            <span class="right">45%</span>
+                        </div>
+                        </div>
+                    <br>
+                        <div class="bg">
+                        <div class="java">
+                            <span class="left">JAVA</span>
+                            <span class="right">50%</span>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="box">	
+                        <!-- <h3>&middot; <a href="https://twitter.com/anaksmkti">My</a> Programming Skills &middot;</h3> -->
+                        <div class="skillsfesub">Database Skills</div>
+                    
+                        <div class="bg">
+                        <div class="mssql">
+                            <span class="left">MSSQL</span>
+                            <span class="right">85%</span>
+                        </div>
+                        </div>
+                    <br>
+                        <div class="bg">
+                        <div class="mysql">
+                            <span class="left">MySQL</span>
+                            <span class="right">78%</span>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="box">	
+                        <!-- <h3>&middot; <a href="https://twitter.com/anaksmkti">My</a> Programming Skills &middot;</h3> -->
+                        <div class="skillsfesub">Other Skills</div>
+                    
+                        <div class="bg">
+                        <div class="ps">
+                            <span class="left">Photoshop</span>
+                            <span class="right">60%</span>
+                        </div>
+                        </div>
+                    <br>
+                        <div class="bg">
+                        <div class="pp">
+                            <span class="left">Premiere Pro</span>
+                            <span class="right">60%</span>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--         
+        <div id="c"></div>
+        <div class="card show" id="connectmeDiv">
+            <div class="hero">
+                <div class="titlePara" id="connectmeTitle">Connect Me</div>
+                <p id="connectmesubTitle">You can reach me out via </p>
+
+            </div>
+        </div> -->
+    </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="./media/images/uparrow.png" alt="Top" id="imgTop" title="Go to top"></button>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modalinternalDiv">
+            <h2>Choose website version</h2>
+            <button class="webversionButton" id="jsButton" onclick="changeVersion(this)">Javascript</button>
+            <button class="webversionButton" id="jqueryButton" onclick="changeVersion(this)">JQuery</button>
+            <button class="webversionButton" id="reactjsButton" onclick="changeVersion(this)">React JS</button>
+        </div>
+    </div>
+
+    </div>
+    
+    <script src="./script/indexJs.js"></script>
+</body>
+</html>
