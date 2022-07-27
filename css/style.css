@@ -503,7 +503,7 @@ a{
   -o-animation: animasi 3.0s linear infinite;
 }
 
-.rjs{
+.ajs{
 	background: -webkit-linear-gradient(135deg,
 		#E74C3C 25%, #C0392B 25%,
 		#C0392B 50%, #E74C3C 50%,
@@ -516,7 +516,30 @@ a{
 		#E74C3C 25%, #C0392B 25%,
 		#C0392B 50%, #E74C3C 50%,
 		#E74C3C 75%, #C0392B 75%);
-	width: 50%;
+	width: 40%;
+	height: 20px;
+	padding: 0px 10px;
+	background-size: 50px 50px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	-webkit-animation: animasi 3.0s linear infinite;
+  -moz-animation: animasi 3.0s linear infinite;
+  -o-animation: animasi 3.0s linear infinite;
+}
+
+.rjs{
+	background: -webkit-linear-gradient(135deg,
+		#F1C40F 25%, #F39C12 25%,
+		#F39C12 50%, #F1C40F 50%,
+		#F1C40F 75%, #F39C12 75%);
+  background: -moz-linear-gradient(135deg,
+		#F1C40F 25%, #F39C12 25%,
+		#F39C12 50%, #F1C40F 50%,
+		#F1C40F 75%, #F39C12 75%);
+  background: -o-linear-gradient(135deg,
+		#F1C40F 25%, #F39C12 25%,
+		#F39C12 50%, #F1C40F 50%,
+		#F1C40F 75%, #F39C12 75%);
+	width: 30%;
 	height: 20px;
 	padding: 0px 10px;
 	background-size: 50px 50px;
